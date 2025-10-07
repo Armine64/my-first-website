@@ -1,21 +1,40 @@
-<!DOCTYPE html>
 <html>
 <head>
-  <title>Իմ առաջին կայքը</title>
+<title></title>
+<script type="text/javascript" src="calc1.js"></script>
+<style type="text/css">
+#tiv{font-size:30px; color:white;}
+input{
+font-size:30px; border:solid 3px white; border-radius:15px;
+margin:2px; padding: 3px;background: silver;}
+input[type="button"], input[type="reset"]
+{
+width: 50px; height: 50px;}
+#rez1{font-size:20px; background: gray; border:0px;}
+</style>
 </head>
-<body>
-  <h1>Բարև աշխարհ!</h1>
-  <p>Սա իմ առաջին GitHub կայքն է։</p>
-</body>
-</html>
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Իմ առաջին կայքը</title>
-</head>
-<body>
-  <h1>Բարև աշխարհ!</h1>
-  <p>Սա իմ առաջին GitHub կայքն է։</p>
-</body>
-</html>
-commit message 
+<body id="bb" bgcolor=gray>
+<p id="tiv">Հաշվիչ սովորական</p>
+<form id="f">
+<input id="rez1" type=text size=10 disabled=no><br>
+<input id="rez" type=text size=10 disabled=no><br>
+<input type="button"  value=1 onClick="tiv(rez,rez1,1);" >
+<input type="button"  value=2 onClick="tiv(rez,rez1,2);">
+<input type="button" value=3 onClick="tiv(rez,rez1,3);"><br>
+<input type="button" value=4 onClick="tiv(rez,rez1,4);">
+<input type="button" value=5 onClick="tiv(rez,rez1,5);">
+<input type="button"  value=6 onClick="tiv(rez,rez1,6);"><br>
+<input type="button"  value=7 onClick="tiv(rez,rez1,7);">
+<input type="button"  value=8 onClick="tiv(rez,rez1,8);">
+<input type="button"  value=9 onClick="tiv(rez,rez1,9);"><br>
+<input type="button"  value=0 onClick="tiv(rez,rez1,0);">
+<input type="button"  value="+" onClick="tiv(rez,rez1,'+');">
+<input type="button" value="-" onClick="tiv(rez,rez1,'-');"><br>
+<input type="button"  value="=" onClick="tiv(rez,rez1,'=');">
+<input type="reset" value="c">
+<input type="button"  value="." onClick="tiv(rez,rez1,'.');"><br>
+<input type="button"  value="*" onClick="tiv(rez,rez1,'*');">
+<input type="button"  value="/" onClick="tiv(rez,rez1,'/');">
+<input type="button"  value="bs" onClick="tiv(rez,rez1,'b');">
+</form>
+</body><html>
